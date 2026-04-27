@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="https://fontlibrary.org//face/bebasneueregular"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>ReadyOn</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hero__all">
+        <header class="header">
+          <div class="container">
+            <div class="header__content">
+              <div class="header__logo">
+                <a href="/" class="header__logo-link">
+                  <img src="images/logo.png" alt="logotip" />
+                </a>
+              </div>
+              <nav class="header__menu">
+                <ul class="header__ul">
+                  <li class="header__li">
+                    <a href="#program" class="header__a">Программа заезда</a>
+                  </li>
+                  <li class="header__li">
+                    <a href="#sportCar" class="header__a">Спорткары</a>
+                  </li>
+                  <li class="header__li">
+                    <a href="#certificate" class="header__a">Сертификаты</a>
+                  </li>
+                  <li class="header__li">
+                    <a href="#contacts" class="header__a">Контакты</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="header__contact">
+                <div class="icon-wrapper">
+                  <svg class="icon">
+                    <use href="#icon-instagram"></use>
+                  </svg>
+
+                  <svg class="icon">
+                    <use href="#icon-facebook"></use>
+                  </svg>
+
+                  <svg class="icon">
+                    <use href="#icon-android"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="burger" id="burger">
+                <div class="burger-lines">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero">
+          <div class="container">
+            <div class="hero__content">
+              <h1 class="hero__main">Трек-дни <span>с ReadyOn</span></h1>
+              <div class="hero__title">
+                <div class="hero__lines">
+                  <div class="hero__line"></div>
+                  <div class="hero__line"></div>
+                  <div class="hero__line"></div>
+                </div>
+                <p class="hero__titleText">
+                  Не просто аренда спорткара, а настоящее погружение в мир
+                  автоспорта
+                </p>
+              </div>
+              <div class="hero__btn">
+                <a class="all__btn" href="#contacts">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="program" id="program">
+        <div class="container">
+          <div class="program__content">
+            <h2 class="program__title">Что включает программа</h2>
+            <div class="program__container">
+              <!-- Десктопная версия (видна выше 900px) -->
+              <div class="program__cards program__cards-desktop">
+                <div class="program__card card__1">
+                  <div class="program__number">01</div>
+                  <div class="program__group">
+                    <div class="program__titleGroup">АРЕНДА СПОРТКАРА</div>
+                    <div class="program__line"></div>
+                    <div class="program__text">
+                      Автомобили, готовые к экстремальным нагрузкам
+                    </div>
+                  </div>
+                </div>
+                <div class="program__card card__2">
+                  <div class="program__number">02</div>
+                  <div class="program__group">
+                    <div class="program__titleGroup">ГОНОЧНЫЙ ИНСТРУКТОР</div>
+                    <div class="program__line"></div>
+                    <div class="program__text">
+                      Профессионалы, тренирующие пилотов самого разного уровня
+                    </div>
+                  </div>
+                </div>
+                <div class="program__card card__3">
+                  <div class="program__number">03</div>
+                  <div class="program__group">
+                    <div class="program__titleGroup">потрясающие треки</div>
+                    <div class="program__line"></div>
+                    <div class="program__text">
+                      Лучшие гоночные трассы Бельгии
+                    </div>
+                  </div>
+                </div>
+                <div class="program__card card__4">
+                  <div class="program__number">04</div>
+                  <div class="program__group">
+                    <div class="program__titleGroup">
+                      ВНИМАНИЕ К КАЖДОЙ ДЕТАЛИ
+                    </div>
+                    <div class="program__line"></div>
+                    <div class="program__text">
+                      Оборудованные боксы и индивидуальная экипировка – мы
+                      позаботились обо всем
+                    </div>
+                  </div>
+                </div>
+                <div class="program__card card__5">
+                  <div class="program__number">05</div>
+                  <div class="program__group">
+                    <div class="program__titleGroup">НЕЗАБЫВАЕМЫЙ ОПЫТ</div>
+                    <div class="program__line"></div>
+                    <div class="program__text">
+                      Видео заезда и сертификат о прохождении курса для каждого
+                      клиента
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Мобильная версия (видна ниже 900px) -->
+              <div class="program__cards-mobile">
+                <div class="program-mobile-card">
+                  <div class="program-mobile-card__content">
+                    <div class="program-mobile-card__header">
+                      <span class="program-mobile-card__number">01</span>
+                      <h3 class="program-mobile-card__title">
+                        АРЕНДА СПОРТКАРА
+                      </h3>
+                    </div>
+                    <p class="program-mobile-card__text">
+                      Автомобили, готовые к экстремальным нагрузкам
+                    </p>
+                  </div>
+                  <div class="program-mobile-card__image">
+                    <img src="images/cardMobile1.jpg" alt="Аренда спорткара" />
+                  </div>
+                </div>
+
+                <div class="program-mobile-card">
+                  <div class="program-mobile-card__content">
+                    <div class="program-mobile-card__header">
+                      <span class="program-mobile-card__number">02</span>
+                      <h3 class="program-mobile-card__title">
+                        ГОНОЧНЫЙ ИНСТРУКТОР
+                      </h3>
+                    </div>
+                    <p class="program-mobile-card__text">
+                      Профессионалы, тренирующие пилотов самого разного уровня
+                    </p>
+                  </div>
+                  <div class="program-mobile-card__image">
+                    <img
+                      src="images/cardMobile2.jpg"
+                      alt="Гоночный инструктор"
+                    />
+                  </div>
+                </div>
+
+                <div class="program-mobile-card">
+                  <div class="program-mobile-card__content">
+                    <div class="program-mobile-card__header">
+                      <span class="program-mobile-card__number">03</span>
+                      <h3 class="program-mobile-card__title">
+                        ПОТРЯСАЮЩИЕ ТРЕКИ
+                      </h3>
+                    </div>
+                    <p class="program-mobile-card__text">
+                      Лучшие гоночные трассы Бельгии
+                    </p>
+                  </div>
+                  <div class="program-mobile-card__image">
+                    <img src="images/cardMobile3.jpg" alt="Потрясающие треки" />
+                  </div>
+                </div>
+
+                <div class="program-mobile-card">
+                  <div class="program-mobile-card__content">
+                    <div class="program-mobile-card__header">
+                      <span class="program-mobile-card__number">04</span>
+                      <h3 class="program-mobile-card__title">
+                        ВНИМАНИЕ К КАЖДОЙ ДЕТАЛИ
+                      </h3>
+                    </div>
+                    <p class="program-mobile-card__text">
+                      Оборудованные боксы и индивидуальная экипировка – мы
+                      позаботились обо всем
+                    </p>
+                  </div>
+                  <div class="program-mobile-card__image">
+                    <img
+                      src="images/cardMobile4.jpg"
+                      alt="Внимание к деталям"
+                    />
+                  </div>
+                </div>
+
+                <div class="program-mobile-card">
+                  <div class="program-mobile-card__content">
+                    <div class="program-mobile-card__header">
+                      <span class="program-mobile-card__number">05</span>
+                      <h3 class="program-mobile-card__title">
+                        НЕЗАБЫВАЕМЫЙ ОПЫТ
+                      </h3>
+                    </div>
+                    <p class="program-mobile-card__text">
+                      Видео заезда и сертификат о прохождении курса для каждого
+                      клиента
+                    </p>
+                  </div>
+                  <div class="program-mobile-card__image">
+                    <img src="images/cardMobile5.jpg" alt="Незабываемый опыт" />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Кнопка Заказать -->
+              <div class="program__btn">
+                <a href="#contacts" class="all__btn">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sportCar" class="sportCar">
+        <div class="container">
+          <div class="sportCar__content">
+            <div class="sportCar__text">
+              <h3 class="sportCar__title">СПОРТКАРЫ</h3>
+              <p class="sportCar__subtitle">
+                Мы располагаем собственным парком автомобилей. Все спорткары
+                специально подготовлены для экстремальных нагрузок и достижения
+                максимального удовольствия от управления
+              </p>
+            </div>
+            <div class="sportCar__cards">
+              <div class="sportCar__card">
+                <img src="images/911.png" alt="911" />
+                <div class="sportCar__block">
+                  <p class="sportCar__block-text">911 GT3</p>
+                </div>
+              </div>
+              <div class="sportCar__card">
+                <img src="images/bmw-m4.png" alt="m4" />
+                <div class="sportCar__block">
+                  <p class="sportCar__block-text">BMW M4</p>
+                </div>
+              </div>
+              <div class="sportCar__card">
+                <img src="images/nissan-gtr.png" alt="gtr" />
+                <div class="sportCar__block">
+                  <p class="sportCar__block-text">GTR-35</p>
+                </div>
+              </div>
+              <div class="sportCar__card">
+                <img src="images/r8.png" alt="911" />
+                <div class="sportCar__block">
+                  <p class="sportCar__block-text">AUDI R8</p>
+                </div>
+              </div>
+            </div>
+            <div class="sportCar__about">
+              <div class="sportCar__gallery">
+                <div class="sportCar__mainImage">
+                  <img src="images/porshBig.jpg" alt="main_Car" />
+                </div>
+                <div class="sportCar__thumbnails">
+                  <img src="images/porsh_one.jpg" alt="one" />
+                  <img src="images/porsh__two.jpg" alt="two" />
+                  <img src="images/porsh__tree.jpg" alt="three" />
+                  <img src="images/porsh__four.jpg" alt="four" />
+                </div>
+              </div>
+              <div class="sportCar__specs">
+                <div class="sportCar__name">PORSCHE <span>911 GT3</span></div>
+                <p class="sportCar__lapTime">
+                  1.48 минут <span>Время круга на MRW</span>
+                </p>
+                <p class="sportCar__topSpeed">
+                  306 км <span>Максимальная скорость</span>
+                </p>
+                <p class="sportCar__acceleration">
+                  3.3 секунд
+                  <span>Разгон 0-100 км/ч</span>
+                </p>
+                <p class="sportCar__power">
+                  420 л/с
+                  <span>Мощность двигателя</span>
+                </p>
+              </div>
+            </div>
+            <div class="sportCar__btn">
+              <a href="#contacts" class="sportCar__button all__btn">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="compare" id="compare">
+        <div class="container">
+          <div class="compare__content">
+            <h2 class="compare__title">СРАВНЕНИЕ АВТОМОБИЛЕЙ</h2>
+
+            <!-- Здесь будет работать Vue -->
+            <div id="compare-app">
+              <!-- Селекторы выбора авто -->
+              <div class="compare__selectors">
+                <select v-model="car1" class="compare__select">
+                  <option value="">-- Выберите автомобиль --</option>
+                  <option v-for="car in cars" :key="car.id" :value="car">
+                    {{ car.name }} {{ car.model }}
+                  </option>
+                </select>
+
+                <div class="compare__vs">VS</div>
+
+                <select v-model="car2" class="compare__select">
+                  <option value="">-- Выберите автомобиль --</option>
+                  <option v-for="car in cars" :key="car.id" :value="car">
+                    {{ car.name }} {{ car.model }}
+                  </option>
+                </select>
+              </div>
+
+              <!-- Таблица сравнения (показывается когда выбраны оба авто) -->
+              <div class="compare__table" v-if="car1 || car2">
+                <!-- Изображения авто -->
+                <div class="compare__images">
+                  <div class="compare__image" v-if="car1">
+                    <img
+                      :src="car1.image"
+                      :alt="car1.name + ' ' + car1.model"
+                    />
+                    <span class="compare__car-name"
+                      >{{ car1.name }} {{ car1.model }}</span
+                    >
+                  </div>
+                  <div class="compare__image" v-if="car2">
+                    <img
+                      :src="car2.image"
+                      :alt="car2.name + ' ' + car2.model"
+                    />
+                    <span class="compare__car-name"
+                      >{{ car2.name }} {{ car2.model }}</span
+                    >
+                  </div>
+                </div>
+
+                <!-- Характеристики -->
+                <div class="compare__specs">
+                  <div
+                    v-for="spec in specs"
+                    :key="spec.key"
+                    class="compare__row"
+                  >
+                    <!-- Значение первого авто -->
+                    <div
+                      class="compare__value compare__value--left"
+                      v-if="car1"
+                    >
+                      <div
+                        class="compare__bar"
+                        :class="{ 'compare__bar--winner': isFirstWinner(spec) }"
+                        :style="{ width: getBarPercentage(spec, 'left') + '%' }"
+                      ></div>
+                      <span class="compare__number"
+                        >{{ getSpecValue(car1, spec.key) }}{{ spec.unit }}</span
+                      >
+                    </div>
+
+                    <!-- Название характеристики -->
+                    <div class="compare__spec-name">{{ spec.label }}</div>
+
+                    <!-- Значение второго авто -->
+                    <div
+                      class="compare__value compare__value--right"
+                      v-if="car2"
+                    >
+                      <div
+                        class="compare__bar compare__bar--right"
+                        :class="{ 'compare__bar--winner': isSecondWinner(spec) }"
+                        :style="{ width: getBarPercentage(spec, 'right') + '%' }"
+                      ></div>
+                      <span class="compare__number"
+                        >{{ getSpecValue(car2, spec.key) }}{{ spec.unit }}</span
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Кнопка -->
+                <div class="compare__btn">
+                  <a href="#contacts" class="all__btn">ЗАБРОНИРОВАТЬ ЗАЕЗД</a>
+                </div>
+              </div>
+            </div>
+            <!-- Конец Vue -->
+          </div>
+        </div>
+      </section>
+
+      <section id="certificate" class="certificate">
+        <div class="container">
+          <div class="certificate__content">
+            <div class="certificate__textContent">
+              <div class="certificate__title">ПОДАРОЧНЫЕ СЕРТИФИКАТЫ</div>
+              <div class="certificate__subtitle">
+                <img src="images/bag.png" alt="" />
+                <p>Лучший подарок на свете</p>
+              </div>
+              <div class="certificate__spisok">
+                <div class="certificate__card">
+                  <svg class="iconOk">
+                    <use href="#icon-ok"></use>
+                  </svg>
+                  <p class="icon__text">Подарок, способный изменить жизнь</p>
+                </div>
+                <div class="certificate__card">
+                  <svg class="iconOk">
+                    <use href="#icon-ok"></use>
+                  </svg>
+                  <p class="icon__text">
+                    Для близкого человека, друга, коллеги или партнёра
+                  </p>
+                </div>
+                <div class="certificate__card">
+                  <svg class="iconOk">
+                    <use href="#icon-ok"></use>
+                  </svg>
+                  <p class="icon__text">
+                    Подарочный сертификат доступен в виде программы или депозита
+                    на определённую сумму
+                  </p>
+                </div>
+              </div>
+              <div class="certificate__btns">
+                <a href="#contacts" class="certificate__btn all__btn"
+                  >ЗАКАЗАТЬ</a
+                >
+                <a href="#contacts" class="certificate__btn all__btn"
+                  >ПОДРОБНЕЕ</a
+                >
+              </div>
+            </div>
+            <div class="certificate__img">
+              <img src="images/certificate.png" alt="certificate" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <div class="faq__content">
+            <h2 class="faq__title">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+
+            <div class="faq__container">
+              <div class="faq__item active">
+                <button class="faq__question">
+                  Что такое "трек-день"?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    "Трек-день" – день, когда гоночная трасса открыта для всех
+                    желающих. В рамках трек-дней мы и проводим наши заезды.
+                    Расписание трек-дней обычно известно за несколько недель. Мы
+                    можем приглашать для участия в них и бронировать заезды.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question">
+                  Что такое "заезд" и почему его продолжительность различается
+                  на разных трассах?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    Продолжительность заезда (сессии) зависит от регламента
+                    конкретного автодрома. Обычно это временной интервал от 15
+                    до 25 минут интенсивного вождения.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question">
+                  Можно ли приехать на гоночную трассу компанией?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    Да, мы приветствуем групповые заезды. Вы можете
+                    забронировать несколько машин или поочередное участие для
+                    ваших друзей или коллег.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question">
+                  Какой возраст и стаж необходим для участия в заезде?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    Обычно требуется возраст от 18 лет и наличие действующего
+                    водительского удостоверения категории "B". Стаж вождения
+                    обсуждается индивидуально в зависимости от выбранного авто.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question">
+                  Нужна ли специальная подготовка или экипировка?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    Нет, мы предоставляем всё необходимое: шлем, гоночный костюм
+                    и перчатки. Перед заездом профессиональный инструктор
+                    проводит обязательный брифинг.
+                  </p>
+                </div>
+              </div>
+
+              <div class="faq__item">
+                <button class="faq__question">
+                  Можно ли получить видеозапись своего заезда?
+                  <span class="faq__icon"></span>
+                </button>
+                <div class="faq__answer">
+                  <p>
+                    Да, каждый наш заезд записывается на видео с нескольких
+                    камер. Вы получаете запись на память, а также сертификат о
+                    прохождении курса.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="mail">
+        <div class="container">
+          <div class="mail__content">
+            <div class="mail__info">
+              <h2 class="mail__title">НЕ НАШЛИ ОТВЕТА НА СВОЙ ВОПРОС?</h2>
+              <p class="mail__subtitle">Напишите или позвоните нам</p>
+              <div class="mail__contacts">
+                <a href="tel:+3287766164" class="mail__link"
+                  >+32 87 76 61 64 ↗</a
+                >
+                <a href="mailto:email@readyon.be" class="mail__link"
+                  >email@readyon.be ↗</a
+                >
+              </div>
+            </div>
+
+            <form class="mail__form">
+              <div class="mail__input-group">
+                <input
+                  type="text"
+                  placeholder="Как вас зовут?"
+                  class="mail__input"
+                />
+              </div>
+              <div class="mail__input-group">
+                <input type="email" placeholder="Email" class="mail__input" />
+              </div>
+              <div class="mail__input-group">
+                <textarea
+                  placeholder="Сообщение"
+                  class="mail__input mail__textarea"
+                ></textarea>
+              </div>
+
+              <label class="mail__checkbox-label">
+                <input type="checkbox" class="mail__checkbox" />
+                <span class="mail__checkbox-text"
+                  >Я согласен на обработку персональных данных</span
+                >
+              </label>
+
+              <button type="submit" class="mail__submit all__btn">
+                ОТПРАВИТЬ
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__copy">© 2017 - 2026 ReadyOn</div>
+            <nav class="footer__social">
+              <a href="#" class="footer__link">Instagram ↗</a>
+              <a href="#" class="footer__link">Facebook ↗</a>
+              <a href="#" class="footer__link">Youtube ↗</a>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- SVG Sprite -->
+    <svg style="display: none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Иконка 1 (например, Instagram) -->
+        <symbol id="icon-instagram" viewBox="0 0 14 15">
+          <path
+            d="M7 10.5882C5.45588 10.5882 4.11765 9.26471 4.11765 7.5C4.11765 5.84559 5.35294 4.41177 7 4.41177C8.54411 4.41177 9.88235 5.73529 9.88235 7.5C9.88235 9.15441 8.54411 10.5882 7 10.5882Z"
+            fill="currentColor"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.5 0H3.5C2.67647 0.110295 2.26471 0.220588 1.95588 0.330883C1.54412 0.441177 1.2353 0.661765 0.926472 0.992648C0.682104 1.25447 0.566644 1.51629 0.427089 1.83276C0.390309 1.91617 0.351754 2.00359 0.308823 2.09559C0.292898 2.14678 0.27451 2.2006 0.2548 2.2583C0.147108 2.57353 0 3.00415 0 3.75V11.25C0.102942 12.1324 0.205881 12.5735 0.308823 12.9044C0.411764 13.3456 0.617649 13.6765 0.926472 14.0074C1.17084 14.2692 1.41521 14.3929 1.71058 14.5424C1.78849 14.5818 1.86995 14.6231 1.95588 14.6691C2.00366 14.6862 2.05389 14.7059 2.10774 14.727C2.40196 14.8424 2.80387 15 3.5 15H10.5C11.3235 14.8897 11.7353 14.7794 12.0441 14.6691C12.4559 14.5588 12.7647 14.3382 13.0735 14.0074C13.3179 13.7455 13.4333 13.4837 13.5729 13.1672C13.6097 13.0838 13.6482 12.9965 13.6912 12.9044C13.7071 12.8532 13.7255 12.7994 13.7452 12.7417C13.8529 12.4265 14 11.9959 14 11.25V3.75C13.8971 2.86765 13.7941 2.42647 13.6912 2.09559C13.5882 1.65441 13.3824 1.32353 13.0735 0.992648C12.8292 0.730824 12.5848 0.607119 12.2894 0.457595C12.2116 0.418217 12.1299 0.376843 12.0441 0.330883C11.9963 0.313821 11.9461 0.294118 11.8923 0.273003C11.598 0.157618 11.1961 0 10.5 0ZM7 2.75735C4.52941 2.75735 2.57353 4.85294 2.57353 7.5C2.57353 10.1471 4.52941 12.2426 7 12.2426C9.47058 12.2426 11.4265 10.1471 11.4265 7.5C11.4265 4.85294 9.47058 2.75735 7 2.75735ZM12.5588 2.64706C12.5588 3.2562 12.0979 3.75 11.5294 3.75C10.9609 3.75 10.5 3.2562 10.5 2.64706C10.5 2.03792 10.9609 1.54412 11.5294 1.54412C12.0979 1.54412 12.5588 2.03792 12.5588 2.64706Z"
+            fill="currentColor"
+          />
+        </symbol>
+
+        <symbol id="icon-ok" viewBox="0 0 24 24">
+          <path
+            d="M20.7071 5.29289C21.0976 5.68342 21.0976 6.31658 20.7071 6.70711L9.70711 17.7071C9.31658 18.0976 8.68342 18.0976 8.29289 17.7071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929C3.68342 10.9024 4.31658 10.9024 4.70711 11.2929L9 15.5858L19.2929 5.29289C19.6834 4.90237 20.3166 4.90237 20.7071 5.29289Z"
+            fill="currentColor"
+          />
+        </symbol>
+        <!-- Иконка 2 -->
+        <symbol id="icon-facebook" viewBox="0 0 8 15">
+          <path
+            d="M8 0H5.81818C4.85376 0 3.92884 0.395088 3.24688 1.09835C2.56493 1.80161 2.18182 2.75544 2.18182 3.75V6H0V9H2.18182V15H5.09091V9H7.27273L8 6H5.09091V3.75C5.09091 3.55109 5.16753 3.36032 5.30392 3.21967C5.44031 3.07902 5.6253 3 5.81818 3H8V0Z"
+            fill="currentColor"
+          />
+        </symbol>
+
+        <!-- Иконка 3 -->
+        <symbol id="icon-android" viewBox="0 0 16 15">
+          <path
+            d="M13.4432 15.4929C11.6854 15.4929 9.99764 15.1588 8.37993 14.4905C6.76168 13.8228 5.33014 12.8963 4.08529 11.7109C2.83992 10.526 1.84782 9.12539 1.10901 7.50901C0.369671 5.89321 0 4.1372 0 2.24098C0 1.60891 0.162996 1.07739 0.488989 0.646437C0.815514 0.215479 1.2784 0 1.87765 0H3.73533C4.09488 0 4.37453 0.111187 4.57428 0.333562C4.77403 0.55651 4.91386 0.876281 4.99376 1.29287C5.07366 1.72383 5.16368 2.16915 5.26382 2.62884C5.36343 3.08853 5.47982 3.49794 5.61298 3.85707C5.73283 4.15874 5.76959 4.44231 5.72325 4.70778C5.67637 4.97383 5.53974 5.22896 5.31336 5.47317L3.75531 7.11081C4.39451 8.11637 5.28353 9.08948 6.42237 10.0301C7.56068 10.9713 8.66916 11.6143 9.74782 11.9591L10.6667 9.95513C10.7865 9.69655 10.9397 9.52072 11.1261 9.42764C11.3125 9.33397 11.5722 9.30151 11.9051 9.33024C12.2514 9.35897 12.5944 9.37333 12.9342 9.37333C13.2735 9.37333 13.6563 9.35897 14.0824 9.33024C14.4819 9.30151 14.8183 9.41643 15.0915 9.67501C15.3643 9.93358 15.5472 10.3502 15.6405 10.9248L15.9601 12.8641C15.9601 12.8641 15.9734 12.9862 16 13.2304C16 13.8337 15.7704 14.3618 15.3113 14.8146C14.8516 15.2668 14.2289 15.4929 13.4432 15.4929Z"
+            fill="currentColor"
+          />
+        </symbol>
+      </defs>
+    </svg>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/car-gallery.js"></script>
+    <script src="js/car-compare.js"></script>
+  </body>
+</html>
